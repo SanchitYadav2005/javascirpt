@@ -18,4 +18,5 @@ barbell.push(30);
 barbell.push(20);
 barbell.push(2.5);
 console.log(barbell);
-const storedValue = barbell.pop()
+const storedValue = barbell.pop();
+console.log(storedValue);
