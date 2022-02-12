@@ -53,3 +53,34 @@ while(guess !== secreat){
     guess = prompt("enter the secreat")
 }
 console.log("congrats")
+
+
+const newArray = ["rohan", "mohan", "ram", "shyam"]
+for (const list of newArray) {
+    console.log(list.toUpperCase())
+}
+
+// iterating over an object
+
+const marks = {
+    sanchit:89,
+    navneet:53,
+    abhishek:55,
+    rohit:32,
+    nirdesh:23,
+    pankaj:54,
+    vikas:75,
+    shivam:76,
+    nirbahy:67,
+    ashwani:65,
+    abhinav:75,
+    ambuj:54,
+    saurab:56,
+    prashant:76,
+    mohit:76,
+    harshit:75
+};
+
+for (const individualInfo in marks) {
+    console.log(`${individualInfo} scored ${marks[individualInfo]}`)
+}
