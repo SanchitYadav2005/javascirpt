@@ -37,3 +37,24 @@ function area(width, height){
 }
 const areaa = area(4,5)
 console.log(areaa)
+
+// function expression example
+
+const add = function(x,y){
+    return x+y
+}
+console.log(add(3,4))
+
+// higher order functions
+
+function callTwice(func){
+    func();
+    func();
+}
+
+function rolDie(){
+    const roll = Math.floor(Math.random() * 6)+1;
+    console.log(roll)
+}
+
+callTwice(rolDie)
