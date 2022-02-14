@@ -1,7 +1,7 @@
 console.log("I am up")
 
 try{
-    hello.toUpperCase();
+    noamd.toUpperCase()
 }catch{
     console.log("error")
 }
