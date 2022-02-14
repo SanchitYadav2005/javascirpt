@@ -58,3 +58,39 @@ function rolDie(){
 }
 
 callTwice(rolDie)
+
+// factory function is a function that's makes a funciton for you.
+
+function makeBetweenFunc(min, max){
+    return function(num){
+        return num >= min && num <= max;
+    }
+}
+const isChild = makeBetweenFunc(0,18);
+const isAudult = makeBetweenFunc(19, 50);
+const isSenior = makeBetweenFunc(50, 100);
+
+// methods;
+
+const myMath = {
+    Pi:3.14,
+    square: function(num){
+        return num * num
+    },
+    multiply: function(x, y){
+        return x*y
+    }
+}
+console.log(myMath.multiply(4,6))
+
+
+// this keyword
+
+const car = {
+    name: "mustang",
+    color: "black",
+    invock(){
+        console.log(`this is ${this.name} in the color ${this.color}`)
+    }
+}
+console.log(car.invock())
