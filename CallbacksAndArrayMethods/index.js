@@ -265,7 +265,7 @@ const animals = [
     "Wren",
     "Yak",
     "Zebra"
-]
+] 
 
 const animals_length = animals.map((animal_lenght)=>{
     return animal_lenght.length;
