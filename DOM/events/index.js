@@ -11,5 +11,5 @@ btn.onclick = function(){ // thats one of doing this
 const newBtn = document.querySelector('button')
 
 newBtn.addEventListener('click', function(){
-    console.log("it's working correctly!!")
+    console.log("FUUUUUUUCK!!")
 })
