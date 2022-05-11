@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+*{
+    background-color: RGB(223, 207, 190,.1);
+    font-family: 'Macondo', cursive;
+}
+
+.winner{
+    color: green;
+}                          /*these two classes are for coloring on the h1 for more interesting ui*/
+.loser{
+    color: red;
+}
+
+.card{
+    border: 3px solid black;
+    border-radius: 2rem;
+    width: 30%;
+    margin:auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#card-image{
+    border-bottom: 3px solid black;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 100%;
+}
+h2{
+    font-size: 2em;
+}
+button{
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 3em;
+    border-radius: 1rem;
+}
+button:nth-of-type(1){
+    background-color: #00bbf9;
+}
+button:nth-of-type(2){
+    background-color: #f94144;
+}
+button:nth-of-type(3){
+    background-color: #e9ff70;
+}
